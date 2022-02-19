@@ -1,0 +1,5 @@
+build/*
+a.out.dSYM/
+*/endpoint.h
+.DS_Store
+build/*
