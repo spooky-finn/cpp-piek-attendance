@@ -19,7 +19,7 @@ set(HEADERS
 
 include_directories(
     ${CURL_INCLUDE_DIR}
-    ${CMAKE_SOURCE_DIR}/json/single_include/nlohmann/
+    # ${CMAKE_SOURCE_DIR}/json/single_include/nlohmann/
     ${CMAKE_SOURCE_DIR}/include/
 )
 

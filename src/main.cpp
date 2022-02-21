@@ -93,8 +93,6 @@ int main(int const argc, const char* const argv[]){
 
     primarySampling(events_pool, startSamplingDate);
 
-
-
     vector<Employee> users = parseEmployees(events_pool);
 
     dataLogger.exportUnmodifiedEvents(users);
@@ -102,7 +100,7 @@ int main(int const argc, const char* const argv[]){
 
     transmitter.insertIntervals(users);
 
-    // dataLogger.exportFullyReport(users);
+    dataLogger.exportFullyReport(users);
 
     unsigned int end_time = clock();
     cout << "total time " << (end_time - start_time ) * 1000.0 /  CLOCKS_PER_SEC << "ms \n" << endl;

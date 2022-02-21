@@ -7,6 +7,7 @@
 #include "types.hpp"
 #include "GQLTransmitter.hpp"
 #include "utils.hpp"
+#include "json.hpp"
 
 
 nlohmann::json GQLTransmitter::getEmployees(){
