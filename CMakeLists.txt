@@ -4,5 +4,4 @@ cmake_minimum_required(VERSION 3.11s-3.18)
 
 project(piekAttendance VERSION 0.1)
 
-add_subdirectory(json)
 add_subdirectory(src)
